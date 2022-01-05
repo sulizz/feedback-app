@@ -16,10 +16,10 @@ export const FeedbackProvier = ({ children }) => {
     });
 
     //add feedback
-    // const addFeedback = (newFeedback) => {
-    //     newFeedback.id = uuidv4();
-    //     setFeedback([newFeedback, ...feedback]);
-    // };
+    const addFeedback = (newFeedback) => {
+        newFeedback.id = uuidv4();
+        setFeedback([newFeedback, ...feedback]);
+    };
 
     //delete feedback
     const deleteFeedback = (id) => {
